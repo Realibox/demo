@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>商场集成demo | Realibox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/main.css" />
+    <script src="//asset.realibox.com/open/js/realibox.decoder.js"></script>
+</head>
+
+<body onload="onLoad()">
+    <div class="header">
+        <img src="assets/header.png" />
+    </div>
+    <div class="banner">
+        <img src="assets/banner.png" />
+    </div>
+    <div class="container">
+        <div class="canvas"><canvas id="canvas"></canvas></div>
+        <div class="content">
+            <div class="title">
+                <img src="assets/title.png" />
+            </div>
+            <div class="price">
+                <div class="price_panel">
+                    <span class="price_text">价格</span>
+                    <span class="yen">¥</span>
+                    <span id="originPrice" class="discount_price">398.00</span>
+                </div>
+                <div class="price_panel">
+                    <span class="price_text">促销价</span>
+                    <span class="yen promo_price_yen">¥</span>
+                    <span id="promoPrice" class="promo_price">179.00</span>
+                    <span class="tm-promo-type "><s></s>新品抢鲜价</span>
+                </div>
+            </div>
+            <div class="info">
+                <img src="assets/infos.png" />
+            </div>
+            <div class="colors">
+                <div class="color_text">颜色分类</div>
+                <div class="color_wrapper">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/libs/realibox.min.js"></script>
+    <script src="./assets/js/libs/axios.min.js"></script>
+    <script type="text/javascript" src="./assets/js/libs/jquery.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

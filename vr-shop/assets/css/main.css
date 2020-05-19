@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #404040;
+    background-color: #fff;
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+}
+
+.header {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 995px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    width: 995px;
+    margin: 0 auto;
+}
+
+.content {}
+
+.title {}
+
+.price {
+    background-color: #e9e9e9;
+    background-repeat: no-repeat;
+    background-position: left 0;
+    position: relative;
+    left: 0;
+    z-index: 10;
+    font: 12px/1.5 "Microsoft Yahei", tahoma, arial;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-right: 20px;
+}
+
+.price_panel {
+    display: flex;
+    align-items: center;
+    color: #333;
+}
+
+.price_text {
+    color: #999;
+    font-size: 12px;
+    text-align: left;
+    float: left;
+    width: 69px;
+    margin: 0 0 0 8px;
+}
+
+.discount_price {
+    margin-left: 6px;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+.promo_price_yen {
+    position: relative;
+    bottom: -4px;
+    vertical-align: middle;
+    color: #FF0036;
+    font-size: 18px;
+    font-family: Arial;
+    -webkit-font-smoothing: antialiased;
+}
+
+.promo_price {
+    margin-left: 6px;
+    vertical-align: middle;
+    font-size: 30px;
+    color: #FF0036;
+    font-weight: bolder;
+    font-family: Arial;
+    -webkit-font-smoothing: antialiased;
+}
+
+.tm-promo-type {
+    background-color: #f47a86;
+    border-radius: 1px;
+    color: #fff;
+    height: 16px;
+    line-height: 16px;
+    margin: 0 2px 4px 6px;
+    padding: 1px 5px;
+    position: relative;
+}
+
+.tm-promo-type s {
+    position: absolute;
+    width: 0;
+    display: block;
+    font-size: 0;
+    left: -4px;
+    bottom: 0;
+    height: 0;
+    border: 3px solid #f47a86;
+    border-color: transparent #f47a86 #f47a86 transparent;
+}
+
+.info {}
+
+.real_text {}
+
+.colors {
+    display: flex;
+}
+
+.color_text {
+    width: 66px;
+    color: #838383;
+}
+
+.color_wrapper {
+    display: flex;
+}
+
+.color_item_wrapper {
+    position: relative;
+    margin: 0 4px 4px 0;
+    line-height: 20px;
+    vertical-align: middle;
+    padding: 1px;
+    line-height: 28px;
+    background-color: #fff;
+
+}
+
+.color_item {
+    white-space: nowrap;
+    width: 50px;
+    min-width: 10px;
+    padding: 0 9px;
+    text-align: center;
+    border: 1px solid #b8b7bd;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.color_item_selected {
+    border: 2px solid #FF0036;
+    margin: -1px;
+}
+
+.color_item:hover {
+    border: 2px solid #FF0036;
+    margin: -1px;
+}
+
+.color_item>img {
+    width: 100%;
+    height: 100%;
+}
+
+.canvas {
+    width: 300px;
+    position: relative;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+#canvas {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

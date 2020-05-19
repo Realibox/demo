@@ -1,0 +1,12 @@
+{
+    "name": "demo | realibox",
+    "author": "Terence",
+    "version": "1.2",
+    "engines": {
+        "rdk": ">1.0.0"
+    },
+    "description": "",
+    "ptype": 0,
+    "prefix": "",
+    "config": "./resources/scene.json"
+}

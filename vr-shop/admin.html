@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>商家后台 | Realibox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>
+        .container{
+            width: 1080px;
+            margin: 0 auto;
+        }
+        .good-header{
+            width: 100%;
+            height: 300px;
+            display: flex;
+            background: #efefef;
+        }
+        .header-right{
+            margin-top:100px;
+            margin-left: 100px;
+        }
+        .good-3D{
+            width: 100%;
+            background: #f9f9f9;
+            min-height: 600px;
+        }
+        #color-list{
+
+        }
+        #color-list li{
+            height: 60px;
+            display: flex;
+
+        }
+        #color-list li span{
+            margin-right:30px;
+        }
+        #color-list li img{
+            margin-right: 30px;
+            height: 100%;
+        }
+        #color-list li input{
+             margin-right: 30px;
+        }
+        #color-list li select{
+             margin-right: 30px;
+        }
+        .foote{
+            background: #f1f1f1;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="good-header">
+            <div class="header-left">
+                <img src="./assets/images/glasses.png" alt="">
+            </div>
+            <div class="header-right">
+                <div class="right-item"><span>商品名：</span><input value="太阳镜" type="text"></input></div>
+                <div class="right-item"><span>数量：</span><input value='1' type="text"></input></div>
+                <div class="right-item"><span>3D项目：</span><select name="project" id="project"></select></div>
+            </div>
+        </header>
+        <section class="good-3D">
+            <ul id="color-list">
+                <li><span>sku配置</span> <span>价格</span> <span>3D交互</span> </li>
+            </ul>
+        </section>
+        <footer class="foote">
+            <div><button id="save">保存</button></div>
+            api token: <input value="2c06c97f7b34424a85a4480a87c0d6d7" id="token" type="text">
+            <button id="tokenbtn">确定</button>
+        </footer>
+    </div>
+    <script src="./assets/js/libs/axios.min.js"></script>
+    <script type="text/javascript" src="./assets/js/libs/jquery.min.js"></script>
+    <script src="./assets/js/admin.js"></script>
+</body>
+
+</html>
